@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 85vw;
+    margin: 0 auto; 
+}
+main{
+    height: 100vh;
+    background: url(Rectangle\ 1.jpg);
+    background-size: cover;
+}
+nav, .nav__links{
+    display: flex;
+    justify-content: space-between;  
+    list-style: none;
+    gap: 30px;
+    height: 120px;
+    align-items: center;
+    color: #fff;
+}
+.logo h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+.nav__link{
+    font-size: 18px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:calc(100% - 120px);
+    align-items: flex-start;
+    gap: 50px;
+    & h1{
+        color: #fff;
+        font-size: 96px;
+    }
+    & p{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    & button{
+        width: 180px;
+        height: 60px;
+        background: #fff;
+        color: #000;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: inter;
+        border: none;
+    }
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+.price{
+    width: 50vw;
+}
+.price h1{
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.price p{
+    color: #838383;
+    font-size: 16px;
+}
+.price__txt{
+    width: 570px;
+}
+.price__txt h1{
+    font-size: 44px;
+    font-weight: 600px;
+}
+.price__txt p{
+    color: #1D1D1F;
+    font-size: 16px;
+    margin-top: 60px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(Rectangle\ 4.jpg);
+    background-size: cover;
+}
+.elipse{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odios{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.odio{
+    display: flex;
+    width: 30vw;
+}
+& h1{
+    
+}
+
+
